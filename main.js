@@ -16,7 +16,7 @@
 // gdzie float byłby informacją, że zmienna przechowuje wartość zmiennoprzecinkową.
 // Ale tak nie jest, a wygląda tak, bez podawania wartości
 let idUser = 76;
-// Przy czym TYPY W JSISTNIEJĄ, ale są nadawane dynamicznie, czyli przez interpreter podczas wykonywania programu (mówimy o typowaniu dynamicznym, w przeciwieństwie do typowania statycznego, czyli nadawania typu w kodzie jak w tym przykładzie z float). Pamiętajmy jednak, że to nie tworzona zmienna ma typ np.number a właśnie wartość. Zmienna tylko przechowuje wartośc.
+// Przy czym TYPY W JS ISTNIEJĄ, ale są nadawane dynamicznie, czyli przez interpreter podczas wykonywania programu (mówimy o typowaniu dynamicznym, w przeciwieństwie do typowania statycznego, czyli nadawania typu w kodzie jak w tym przykładzie z float). Pamiętajmy jednak, że to nie tworzona zmienna ma typ np.number a właśnie wartość. Zmienna tylko przechowuje wartośc.
 
 // Operator typeof zwraca nam informacje o typie wartości przechowywanej w zmiennej
 
@@ -37,7 +37,7 @@ firstLetterUserName = "J";
 // Najczęściej jednocześnie deklarujemy i przypisujemy (inicjalizujemy) wartość
 let userSurname = "Smith";
 // dekracja i inicjalizacja podczas, której tworzymy funkcję ( o funkcjach będziemy dopiero rozmawiać - tu jako przykład)
-let showUserName = function () { console.log(userSurname) };
+// let showUserName = function () { console.log(userSurname) };
 
 // DEKLAROWANIE WIELU ZMIENNYCH
 let name, age, address; //w jednej linii tylko przed pierwszą nazwą słowo kluczowe
