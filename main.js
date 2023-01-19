@@ -59,6 +59,8 @@ const firstUser = "Ania", secondUser = "Tomasz";
 let example1 = 200;
 example1 = example1 + 1; // przypisujemy nową wartość zwiększoną o 1
 example1++; //przypisujemy nową wartość zwiekszoną o 1
+example1++;
+
 
 const example2 = 200;
 // const już na to nie pozwoli (będzie błąd), bo nie można nowej wartości przypisać (pamietajmy, że taka zmiana jest tworzeniem nowej wartości)
@@ -66,7 +68,7 @@ const example2 = 200;
 // example2++;
 
 // Pamietajmy też, że taki zapis jak ponizej to kopiowana wartość istniejącej zmiennej do nowej zmiennej. Tworzy się nowa wartość, to nie jest ta sama wartość, mimo że jest identyczna. 
-// let example3 = example2;
+let example3 = example2;
 
 // CONST - przykładz z obiektem (jeszcze nie omawialiśmy obiektów)
 const arrayExample = ["pierwszy"]; // utworzenie tablicy z jednym elementem w środku
