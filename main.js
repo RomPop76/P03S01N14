@@ -96,10 +96,10 @@ const globalProperty3 = "za pomocą const";
 
 // console.log(varVariable);
 // console.log(letVariable);
-// console.log(constVariable);
+console.log(constVariable);
 // var varVariable = 1;
 // let letVariable = 1;
-// const constVariable = 1;
+const constVariable = 1;
 
 /*  JAKICH ZMIENNYCH UŻYWAĆ */
 // Po pierwsze const, po drugie, jeśli zawartość zmiennej ma ulegać zmianie to let.
